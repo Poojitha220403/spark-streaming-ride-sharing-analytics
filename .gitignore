@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Spark state / logs
+checkpoints/
+.derby/
+
+# Outputs (skip bulk data; keep empty dirs)
+outputs/**/*
+!outputs/.keep
+!outputs/task1/.keep
+!outputs/task2/.keep
+!outputs/task3/.keep
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
