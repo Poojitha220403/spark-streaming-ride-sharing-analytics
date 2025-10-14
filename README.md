@@ -1,5 +1,3 @@
-Here’s a single, ready-to-paste **README.md** that matches your code and the outputs you generated (row-per-file for Task 1, batch folders for Tasks 2 & 3, including your `batch_0…batch_4` and `batch_85`):
-
 ````markdown
 # Ride Sharing Analytics Using Spark Streaming and Spark SQL
 
@@ -7,7 +5,7 @@ A real-time analytics pipeline using **Apache Spark Structured Streaming** with 
 
 ---
 
-## ✅ Prerequisites
+## Prerequisites
 
 - **Python 3.x**
   ```bash
@@ -32,7 +30,7 @@ A real-time analytics pipeline using **Apache Spark Structured Streaming** with 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 > This reflects the structure and outputs currently in the Codespace.
 
@@ -66,7 +64,7 @@ HandsOn9/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Open **two terminals** (keep the generator running while you run each task).
 
@@ -96,7 +94,7 @@ python task3.py
 
 ---
 
-## 🧠 Overview & Objectives
+## Overview & Objectives
 
 We build a real-time analytics pipeline for a ride-sharing platform using Spark Structured Streaming:
 
