@@ -187,7 +187,7 @@ window_start,window_end,sum_fare
 
 ---
 
-## 🔎 Verifying Outputs
+## 🔎 Verifying Outputs/ 
 
 List generated files:
 
@@ -204,6 +204,44 @@ head outputs/task3/batch_*/part-*.csv 2>/dev/null | sed -n '1,5p'
 ```
 
 ---
+
+## Sample Outputs
+
+## Task 1 — Parsed Events (example row)
+
+From outputs/task1/row_1_0_baabb114-9e9e-40dd-b9af-eec6696f1955/part-00000-2677106c-f8b4-4118-8994-eff81c307221-c000.csv:
+
+```
+distance_km,driver_id,fare_amount,timestamp,trip_id
+47.74,55,13.27,2025-10-14 17:19:44,0a68b425-466c-46d8-8c92-48467d125e42
+```
+
+## Task 2 — Driver Aggregations (sample from batch_1)
+
+From outputs/task2/batch_1/part-00000-3a6cb8fa-2259-4103-85f7-3268a9810f5d-c000.csv:
+
+```
+driver_id,total_fare,avg_distance
+31,126.78,31.74
+65,139.84,28.42
+53,38.82,16.62
+28,86.96,8.46
+93,81.01,26.12
+20,24.16,27.23
+40,71.8,16.15
+19,51.39,15.75
+```
+
+(Your file contains more rows; this snippet shows the top portion.)
+
+## Task 3 — Windowed Aggregation (sample from batch_85)
+
+From outputs/task3/batch_85/part-00000-c6fec9d1-95fb-41d2-a059-06d5564804d3-c000.csv:
+
+```
+window_start,window_end,sum_fare
+2025-10-14T17:37:00.000Z,2025-10-14T17:42:00.000Z,23685.089999999997
+```
 
 ## 🧹 Cleaning / Reruns
 
