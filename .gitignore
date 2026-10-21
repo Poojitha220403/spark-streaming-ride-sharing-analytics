@@ -1,21 +1,15 @@
+# Spark checksum / marker files
+*.crc
+_SUCCESS
+# Spark streaming state
+checkpoints/
+spark-warehouse/
+metastore_db/
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 .env
-
-# Spark state / logs
-checkpoints/
-.derby/
-
-# Outputs (skip bulk data; keep empty dirs)
-outputs/**/*
-!outputs/.keep
-!outputs/task1/.keep
-!outputs/task2/.keep
-!outputs/task3/.keep
-
-# OS / IDE
+# OS / editor
 .DS_Store
 .vscode/
-.idea/
