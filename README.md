@@ -4,6 +4,7 @@ A real-time analytics pipeline for a ride-sharing platform built with **Spark St
 
 ![PySpark](https://img.shields.io/badge/Spark-Structured%20Streaming-E25A1C?logo=apachespark&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+[![CI](https://github.com/Poojitha220403/spark-streaming-ride-sharing-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/Poojitha220403/spark-streaming-ride-sharing-analytics/actions/workflows/ci.yml)
 
 ## Problem
 
